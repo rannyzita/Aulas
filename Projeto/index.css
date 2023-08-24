@@ -1,0 +1,29 @@
+body /*Estrutura completa da página*/ {
+    font-family: sans-serif;
+}
+
+/*O # vai se referir ao id do html chamado principal*/
+#principal {
+    text-align: center;
+}
+
+/*Tags em geral(Completa)*/
+p {
+    font-size: 14px; /*Tamanho da fonte*/
+}
+
+strong {
+    color: rgb(51, 102, 204);
+}
+
+div {
+    height: auto;
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 15px;
+}
